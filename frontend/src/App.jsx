@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://gym-tracker-backend-lhjb.onrender.com/api";
 const USER_ID = 2;
 
 function App() {
