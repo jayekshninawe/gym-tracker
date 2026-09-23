@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+header {
+  text-align: center;
+  padding: 55px 20px 35px;
+}
+
+header h1 {
+  font-size: 52px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+header p {
+  color: #aaa;
+  font-size: 18px;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: #171717;
+  border: 1px solid #2b2b2b;
+  border-radius: 14px;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+input,
+select {
+  flex: 1;
+  min-width: 200px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #101010;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  padding: 15px 22px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.workout-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.workout,
+.exercise {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #101010;
+  border: 1px solid #292929;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.workout {
+  cursor: pointer;
+}
+
+.workout:hover {
+  border-color: #777;
+}
+
+.workout h3,
+.exercise h3 {
+  margin: 0 0 5px;
+}
+
+.workout p,
+.exercise p {
+  margin: 0;
+  color: #999;
+}
+
+.exercise {
+  margin-bottom: 12px;
+}
+
+.back {
+  margin-bottom: 25px;
+}
